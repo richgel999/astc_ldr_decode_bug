@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="basisu_tool.cpp" />
+    <ClCompile Include="transcoder\basisu_transcoder.cpp">
+      <Filter>transcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\basisu_enc.cpp">
+      <Filter>encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\jpgd.cpp">
+      <Filter>encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="zstd\zstd.c">
+      <Filter>encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\pvpngreader.cpp">
+      <Filter>encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\tinyexr.cc">
+      <Filter>encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\basisu_astc_decomp.cpp">
+      <Filter>encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng.cpp" />
+    <ClCompile Include="lodepng_util.cpp" />
+    <ClCompile Include="astc-encoder\astcenc_averages_and_directions.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_block_sizes.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_color_quantize.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_color_unquantize.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_compress_symbolic.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_compute_variance.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_decompress_symbolic.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_diagnostic_trace.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_entry.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_find_best_partitioning.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_ideal_endpoints_and_weights.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_image.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_integer_sequence.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_mathlib.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_mathlib_softfloat.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_partition_tables.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_percentile_tables.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_pick_best_endpoint_format.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_quantization.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_symbolic_physical.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_weight_align.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+    <ClCompile Include="astc-encoder\astcenc_weight_quant_xfer_tables.cpp">
+      <Filter>astcenc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="transcoder\basisu.h">
+      <Filter>transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="transcoder\basisu_transcoder_internal.h">
+      <Filter>transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="transcoder\basisu_transcoder.h">
+      <Filter>transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="transcoder\basisu_transcoder_uastc.h">
+      <Filter>transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\basisu_enc.h">
+      <Filter>encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\jpgd.h">
+      <Filter>encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\cppspmd_flow.h">
+      <Filter>encoder\cppspmd</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\cppspmd_math.h">
+      <Filter>encoder\cppspmd</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\cppspmd_math_declares.h">
+      <Filter>encoder\cppspmd</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\cppspmd_sse.h">
+      <Filter>encoder\cppspmd</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\cppspmd_type_aliases.h">
+      <Filter>encoder\cppspmd</Filter>
+    </ClInclude>
+    <ClInclude Include="transcoder\basisu_containers.h">
+      <Filter>transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="transcoder\basisu_containers_impl.h">
+      <Filter>transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="transcoder\basisu_file_headers.h">
+      <Filter>transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\pvpngreader.h">
+      <Filter>encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\basisu_astc_decomp.h">
+      <Filter>encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng_util.h" />
+    <ClInclude Include="astc_helpers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="transcoder\basisu_transcoder_tables_dxt1_6.inc">
+      <Filter>transcoder</Filter>
+    </None>
+    <None Include="transcoder\basisu_transcoder_tables_dxt1_5.inc">
+      <Filter>transcoder</Filter>
+    </None>
+    <None Include="transcoder\basisu_transcoder_tables_astc.inc">
+      <Filter>transcoder</Filter>
+    </None>
+    <None Include="transcoder\basisu_transcoder_tables_astc_0_255.inc">
+      <Filter>transcoder</Filter>
+    </None>
+    <None Include="transcoder\basisu_transcoder_tables_bc7_m5_alpha.inc">
+      <Filter>transcoder</Filter>
+    </None>
+    <None Include="transcoder\basisu_transcoder_tables_bc7_m5_color.inc">
+      <Filter>transcoder</Filter>
+    </None>
+    <None Include="transcoder\basisu_transcoder_tables_atc_55.inc">
+      <Filter>transcoder</Filter>
+    </None>
+    <None Include="transcoder\basisu_transcoder_tables_atc_56.inc">
+      <Filter>transcoder</Filter>
+    </None>
+    <None Include="bin\ocl_kernels.cl">
+      <Filter>encoder</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="transcoder">
+      <UniqueIdentifier>{7a54aaad-1d10-4bdf-b8e9-c14ed2263ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encoder">
+      <UniqueIdentifier>{518dd5c5-a7e1-4e79-8bb4-253e2d540c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encoder\cppspmd">
+      <UniqueIdentifier>{ab12ac82-9c39-494d-a36b-129dd1b2dec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="astcenc">
+      <UniqueIdentifier>{03ab85a5-e2ba-4d5b-a47b-d0182dbd486e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="basisu.manifest" />
+  </ItemGroup>
+</Project>
